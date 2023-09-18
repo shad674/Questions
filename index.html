@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Do you want to see the Website?</h1>
+      <h6 onclick="appear('question2')">Yes</h6>
+    </div>
+    <div id="question2" class="question">
+      <h1>
+        This website is confidential! It must be keep secret from other! do you
+        agree to not show to others?
+      </h1>
+      <h6 onclick="appear('question3')">Yes</h6>
+    </div>
+    <div id="question3" class="question">
+      <h1>Are you sure?</h1>
+      <h6 onclick="appear('question4')">Yes</h6>
+    </div>
+    <div id="question4" class="question">
+      <h1>Sure Sure?......</h1>
+      <h6 onclick="appear('final')">Yes</h6>
+    </div>
+    <div id="final" class="question">
+      <h1>Thank you for answering the questions! here is the link</h1>
+      <a href="https://my-french-girl.vercel.app">Click me!</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
